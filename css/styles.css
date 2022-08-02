@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+/***BODY***/
+body {
+    /***SITE BACKGROUND COLOR***/
+    background-color: pink;
+    
+    /***BODY (covers all until overwritten per element Background and Typography***/
+    font-family: 'BIZ UDPGothic', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.header {
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.button-class {
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-emphasis: none;
+    display: inline-block;
+    font-size: 22px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin: 10px;
+}
